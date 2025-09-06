@@ -1,0 +1,33 @@
+{
+  "easy": {
+    "time": 60,
+    "para": [
+      "It was six a.m and the alarm rang loudly.",
+      "I looked at the clock and thought, damn, another day begins.",
+      "You were still asleep, smiling softly as the morning light touched your face.",
+      "The quiet room felt warm and safe, and I wanted to stay like that forever."
+    ]
+  },
+  "medium": {
+    "time": 180,
+    "para": [
+      "I filled out the form at the office, writing slowly to avoid mistakes.",
+      "Life feels not the same as it did before, when laughter came easily.",
+      "There was an exchange of glances between us, silent but powerful.",
+      "I thought about somebody that i used to know, a blonde who once walked beside me in the rain.",
+      "Those memories returned suddenly, like a song I had forgotten how to sing."
+    ]
+  },
+  "hard": {
+    "time": 300,
+    "para": [
+      "The room was quiet except for the sound of my heartbeat echoing in my ears.",
+      "Through the camera lens, the world seemed distant yet painfully real.",
+      "I whispered the words no tears left to cry, hoping they would keep me strong.",
+      "A single tissue lay crumpled on the desk, a sign of battles already fought.",
+      "I kept going in circles, searching for answers that never appeared.",
+      "Your hand brushed against mine, and in that fragile touch I felt hope.",
+      "It was only us in that moment, and the silence between us was louder than any song."
+    ]
+  }
+}
