@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="/src/output.css" />
     <title>Typing Speed Test</title>
   </head>
-  <body class="w-[60%] mx-auto my-10">
+  <body class="md:w-[60%] mx-auto my-10 px-10 md:px-auto">
     <div class="flex justify-between items-center">
       <button
         class="cursor-pointer hover:scale-105 duration-300 bg-red-400 text-white text-xl font-semibold shadow-xl w-16 h-16 rounded-full start"
@@ -21,15 +21,13 @@
       <div>
         <h1
           class="bg-fuchsia-50 text-3xl font-bold w-16 h-16 rounded-full flex justify-center items-center timer"
-        >
-          60
-        </h1>
+        ></h1>
         <h5 class="text-center font-semibold text-md">Timer</h5>
       </div>
     </div>
     <div class="w-full bg-white rounded-md relative content_cover">
       <textarea
-        rows="7"
+        rows="10"
         readonly
         class="border w-full resize-none focus:outline-blue-100 focus:outline-[3px] rounded-md text-lg p-5 leading-7 content_box"
       ></textarea>
@@ -37,32 +35,34 @@
         class="overlay absolute inset-0 pointer-events-none w-full text-lg p-5 leading-7"
       ></div>
     </div>
-    <div class="mt-10 flex items-center justify-between">
+    <div
+      class="mt-10 flex md:items-center justify-between flex-col md:flex-row items-stretch gap-5 md:gap-0"
+    >
       <h1 class="text-xl font-bold">
         Result:
         <h2
           class="font-bold text-white bg-blue-700 px-5 py-1 rounded-[50px] text-lg"
         >
-          WPM
+          WPM:
           <span class="wpm"></span>
         </h2>
         <h2
           class="font-bold text-white bg-neutral-700 px-5 py-1 rounded-[50px] text-lg"
         >
-          CPM
+          CPM:
           <span class="cpm"></span>
         </h2>
         <h2
           class="font-bold text-white bg-orange-700 px-5 py-1 rounded-[50px] text-lg"
         >
-          Accuracy(%)
-          <span class="wpm"></span>
+          Accuracy(%):
+          <span class="accuracy"></span>
         </h2>
         <h2
           class="font-bold text-white bg-pink-700 px-5 py-1 rounded-[50px] text-lg"
         >
-          Mistakes
-          <span class="wpm"></span>
+          Mistakes:
+          <span class="mistake"></span>
         </h2>
       </h1>
     </div>
